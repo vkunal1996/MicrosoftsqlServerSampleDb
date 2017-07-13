@@ -550,7 +550,7 @@ public class MainForm extends javax.swing.JFrame
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         Close();
-        System.exit(1);
+        System.exit(0);
     }//GEN-LAST:event_jButton4ActionPerformed
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
