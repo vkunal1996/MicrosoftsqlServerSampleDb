@@ -403,6 +403,7 @@ public class MainForm extends javax.swing.JFrame
                 if(rs.getRow()==0)
                 {
                     JOptionPane.showMessageDialog(this,"No Record Corrosponding to the Roll Number Found");
+                    P3.setVisible(false);
                     tf1.setText("");
                 }
                     else
@@ -445,6 +446,7 @@ public class MainForm extends javax.swing.JFrame
                 if(rs.getRow()==0)
                 {
                     JOptionPane.showMessageDialog(this,"No Reord Found for "+name);
+                    P5.setVisible(false);
                     tf2.setText("");
                 }
                     else
@@ -519,6 +521,7 @@ public class MainForm extends javax.swing.JFrame
                 if(rs.getRow()==0)
                 {
                     JOptionPane.showMessageDialog(this,"No Reord Found for "+address);
+                    P7.setVisible(false);
                     tf3.setText("");
                 }
                     else
